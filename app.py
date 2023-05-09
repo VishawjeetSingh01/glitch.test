@@ -23,5 +23,3 @@ def edit():
     output = remove(input)
     output.save(outputPath)
     return render_template("index.html")
-
-   app.run()
